@@ -3,9 +3,9 @@ set -x
 
 # Constants
 USERNAME=""
-IMAGE="{{cookiecutter.project_name}}"
+IMAGE="{{cookiecutter.project_slug}}"
 VERSION="latest"
-CONTAINER="devel_{{cookiecutter.project_name}}"
+CONTAINER="devel_{{cookiecutter.project_slug}}"
 
 # Include in docker run to get access to DISPLAY
 MOUNT_DISPLAY="--mount type=bind,source=/tmp/.X11-unix,target=/tmp/.X11-unix --mount type=bind,source=/home/${USERNAME}/.Xauthority,target=/root/.Xauthority -e DISPLAY=\"${DISPLAY}\""

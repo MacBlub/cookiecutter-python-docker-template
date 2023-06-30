@@ -3,9 +3,9 @@ set -x
 
 # Constants
 USERNAME=""
-IMAGE="{{cookiecutter.project_name}}"
+IMAGE="{{cookiecutter.project_slug}}"
 VERSION="latest"
-CONTAINER="devel_{{cookiecutter.project_name}}"
+CONTAINER="devel_{{cookiecutter.project_slug}}"
 
 # Build Container
 docker build -t ${IMAGE}:${VERSION} . \
