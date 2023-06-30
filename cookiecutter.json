@@ -1,0 +1,11 @@
+{
+    "project_name": "default_proj_name",
+    "project_slug": "mypythonproj",
+    "project_full_description": "This is a description for a simple python template project. Its purpose is to support creating new python projects for support with a Dockerfile and keep an easy execution procedures.",
+    "project_short_description": "This is a description for a simple python template project.",
+    "author" : "Max Musterman",
+    "email" : "max.musterman@email.com",
+    "project_version" : "0.0.0",
+    "project_license" : ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Proprietary"]
+
+}
